@@ -9,12 +9,7 @@ import {
 } from "../controllers/productController.js";
 
 const router = express.Router();
+// router create-product, all-products,single product/:id, product-update/:id, deleteproduct/:id
 
-router.post("/create-product", createProduct);
-
-router.get("/all-products", allProducts);
-router.get("/product/:_id", singleProduct);
-router.put("/product-update/:_id", updateProduct);
-router.delete("/product/:_id", deleteProduct);
 
 export default router;
